@@ -1,0 +1,19 @@
+{
+  // Ignore unknown at-rules like @tailwind so the built-in CSS linter doesn't warn
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+
+  // Tailwind IntelliSense suggestions (install the extension for best DX)
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "javascriptreact": "html",
+    "typescript": "javascript",
+    "typescriptreact": "html",
+    "plaintext": "html"
+  },
+
+  // Optional: prefer the workspace TypeScript version in the editor
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
